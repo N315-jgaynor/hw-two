@@ -1,0 +1,75 @@
+.browse {
+  background-color: #000;
+
+  h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: RobotoBold;
+    font-size: 50px;
+  }
+
+  .browse-container {
+    margin: auto 30px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    flex-wrap: wrap;
+
+    .browse-box {
+      height: 200px;
+      width: 350px;
+      display: flex;
+      margin: 30px auto;
+
+      p {
+        color: white;
+        margin: auto 20px;
+        font-family: Roboto;
+        line-height: 1.5;
+        font-size: 15px;
+      }
+
+      .browse-img-one {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb1_200x200.jpg");
+      }
+
+      .browse-img-two {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb2_200x200.jpg");
+      }
+
+      .browse-img-three {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb3_200x200.jpg");
+      }
+
+      .browse-img-four {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb4_200x200.jpg");
+      }
+
+      .browse-img-five {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb5_200x200.jpg");
+      }
+      .browse-img-six {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb6_200x200.jpg");
+      }
+
+      .browse-img-seven {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb7_200x200.jpg");
+      }
+
+      .browse-img-eight {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb8_200x200.jpg");
+      }
+
+      .browse-img-nine {
+        @include browseBox("../images/hw-two-thumbs-assets/thumb9_200x200.jpg");
+      }
+
+      .browse-img-ten {
+        @include browseBox(
+          "../images/hw-two-thumbs-assets/thumb10_200x200.jpg"
+        );
+      }
+    }
+  }
+}

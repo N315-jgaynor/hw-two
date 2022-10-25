@@ -1,0 +1,85 @@
+.home {
+  background-color: #000;
+  min-height: 100px;
+
+  .home-header {
+    text-align: center;
+
+    h1 {
+      color: white;
+      font-family: RobotoBold;
+      font-size: 50px;
+      padding-top: 50px;
+    }
+
+    .home-header-img {
+      width: 530px;
+      height: 345px;
+      background-image: url(../images/calloso-logo.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+    }
+
+    p {
+      color: #ccc;
+      width: 530px;
+      font-family: RobotoItalic;
+      text-align: center;
+      margin: 0 auto;
+      padding: 50px 0;
+      font-size: 17px;
+      letter-spacing: 1px;
+    }
+  }
+
+  .home-shirts {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    margin: 0 auto;
+
+    h1 {
+      font-family: Roboto;
+      color: $site-green;
+      font-size: 40px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .shirts-img-container {
+      width: 570px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+
+      .shirts-img-one {
+        @include shirtImage("../images/meet-shirt-one.png");
+      }
+
+      .shirts-img-two {
+        @include shirtImage("../images/meet-shirt-two.png");
+      }
+    }
+
+    p {
+      color: white;
+      font-family: Roboto;
+      font-size: 22px;
+      line-height: 1.5;
+      margin: 30px auto;
+    }
+
+    button {
+      height: 50px;
+      width: 300px;
+      background-color: $site-green;
+      font-family: Roboto;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      margin: 0 auto 30px auto;
+    }
+  }
+}

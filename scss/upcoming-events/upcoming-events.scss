@@ -1,0 +1,15 @@
+.upcoming-events {
+  background-color: #000;
+  min-height: 100vh;
+
+  .events-header {
+    text-align: center;
+
+    h1 {
+      color: white;
+      font-family: RobotoBold;
+      font-size: 50px;
+      padding-top: 50px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+// this area is for images
+@mixin shirtImage($shirtImgUrl) {
+  height: 270px;
+  width: 270px;
+  background-image: url($shirtImgUrl);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin browseBox($browseImgUrl) {
+  height: 200px;
+  min-width: 200px;
+  background-image: url($browseImgUrl);
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  p {
+    color: white;
+    margin: auto 20px;
+    font-family: Roboto;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+}
