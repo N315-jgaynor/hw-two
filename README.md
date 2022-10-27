@@ -1,6 +1,6 @@
 # Web4 Link
 
-http://in-info-web4.informatics.iupui.edu/~jgaynor/public.html/hw-one.html
+in-info-web4.informatics.iupui.edu/~jgaynor/hw-two/index.html
 
 # hw-two
 
